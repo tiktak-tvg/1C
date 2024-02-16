@@ -1,5 +1,4 @@
 # 1C
-### Диплом по программированию.
 
 ![01](https://github.com/tvgVita69/1C/assets/98489171/6d3b7dec-3a9f-4335-91a2-e4c79d5a2730)
 
