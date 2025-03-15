@@ -1,23 +1,23 @@
 ' Try to connect to v81 base
 
-var V8 = new ActiveXObject("V81.COMConnector"); 'для 1с80 использовать V80.COMConnector
+var V8 = new ActiveXObject("V81.COMConnector"); 'Г¤Г«Гї 1Г±80 ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј V80.COMConnector
 
 try {
 
   
 		'"File=""C:\1CBase""";Usr=""login"";Pwd=""password"";";
-       ConnectionString = "Srvr=""Leon"";Ref=""buch"";Usr=""sa"";Pwd=""bk-rp-2120795"";" 'Для серверной: Srvr="server";Ref="1cBase" //File="C:\\1c\\Catalog";Usr="Admin";Pwd="123456"
+       ConnectionString = "Srvr=""Leon"";Ref=""buch"";Usr=""sa"";Pwd=""b-2170777"";" 'Г„Г«Гї Г±ГҐГ°ГўГҐГ°Г­Г®Г©: Srvr="server";Ref="1cBase" //File="C:\\1c\\Catalog";Usr="Admin";Pwd="123456"
 
        var Base = V8.Connect(ConnectionString);
 
-       var isConfigUpdate = Base.КонфигурацияИзменена();
+       var isConfigUpdate = Base.ГЉГ®Г­ГґГЁГЈГіГ°Г Г¶ГЁГїГ€Г§Г¬ГҐГ­ГҐГ­Г ();
 
-       WScript.Echo("Состояние флага изменения конфигурации: " + isConfigUpdate);
+       WScript.Echo("Г‘Г®Г±ГІГ®ГїГ­ГЁГҐ ГґГ«Г ГЈГ  ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї ГЄГ®Г­ГґГЁГЈГіГ°Г Г¶ГЁГЁ: " + isConfigUpdate);
 
    
 
 } catch(e){
 
-       WScript.Echo("Не удалось создать com-соединение!" + e.description);
+       WScript.Echo("ГЌГҐ ГіГ¤Г Г«Г®Г±Гј Г±Г®Г§Г¤Г ГІГј com-Г±Г®ГҐГ¤ГЁГ­ГҐГ­ГЁГҐ!" + e.description);
 
 }
