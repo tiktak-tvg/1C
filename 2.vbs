@@ -6,7 +6,7 @@ Dim InfoBasesAdminPass
 ServerName = "LEON\MSSQLSERVER2014"
 InfoBaseName = "buchtest"
 InfoBasesAdminName = "sa"
-InfoBasesAdminPass = "bk-rp-2120795"
+InfoBasesAdminPass = "b-2170777"
 
 Set connection = CreateObject("V82.Application")
 connection.Connect("Srvr=""" + ServerName + """;Ref=""" + InfoBaseName + """;Usr=""" + InfoBasesAdminName + """;Pwd=""" + InfoBasesAdminPass + """;")
@@ -14,6 +14,6 @@ connection.Connect("Srvr=""" + ServerName + """;Ref=""" + InfoBaseName + """;Usr
 'Set ComConnector = new ActiveXObject("V82.COMConnector");
 'var connection = ComConnector.Connect("Srvr=""" + ServerName + """;Ref=""" + InfoBaseName + """;Usr=""" + InfoBasesAdminName + """;Pwd=""" + InfoBasesAdminPass + """;");
 
-'connection.WriteLogEvent('Обмен старт', connection.EventLogLevel.Information);
-'connection.МодульРегламентныхЗаданий.ВыполнитьОбменДаннымиДляНастройкиАвтоматическогоОбменаДанным<wbr>­и('000003');
-'connection.WriteLogEvent('Обмен финиш', connection.EventLogLevel.Information);
+'connection.WriteLogEvent('ГЋГЎГ¬ГҐГ­ Г±ГІГ Г°ГІ', connection.EventLogLevel.Information);
+'connection.ГЊГ®Г¤ГіГ«ГјГђГҐГЈГ«Г Г¬ГҐГ­ГІГ­Г»ГµГ‡Г Г¤Г Г­ГЁГ©.Г‚Г»ГЇГ®Г«Г­ГЁГІГјГЋГЎГ¬ГҐГ­Г„Г Г­Г­Г»Г¬ГЁГ„Г«ГїГЌГ Г±ГІГ°Г®Г©ГЄГЁГЂГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГЈГ®ГЋГЎГ¬ГҐГ­Г Г„Г Г­Г­Г»Г¬<wbr>В­ГЁ('000003');
+'connection.WriteLogEvent('ГЋГЎГ¬ГҐГ­ ГґГЁГ­ГЁГё', connection.EventLogLevel.Information);
