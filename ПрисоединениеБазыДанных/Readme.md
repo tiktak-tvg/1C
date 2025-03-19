@@ -16,3 +16,5 @@
 Если такая база уже добавлена выдаст ошибку
 
 ![image](https://github.com/user-attachments/assets/9510cf4c-83b1-4fe5-b2e8-195a4e655973)
+
+![image](https://github.com/user-attachments/assets/023839c9-0ead-4cf0-9da8-fdce9d257f1a)
