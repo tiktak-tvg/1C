@@ -12,3 +12,7 @@
 > Можно сразу дабавить несколько баз данных которые вы хотите присоединить. Они появятся в СУБД все отдельно.
 
 ![image](https://github.com/user-attachments/assets/bb0ae187-9881-4012-9784-4bcacaab8db2)
+
+Если такая база уже добавлена выдаст ошибку
+
+![image](https://github.com/user-attachments/assets/9510cf4c-83b1-4fe5-b2e8-195a4e655973)
