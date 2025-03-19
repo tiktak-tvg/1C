@@ -9,6 +9,6 @@
 ![4](https://github.com/user-attachments/assets/a4ed86e7-b654-426f-835f-fb9224d6aca4)
 
 > [!Warning]
-> Можно сразу дабавить несколько баз данных которые вы хотите присоединить
+> Можно сразу дабавить несколько баз данных которые вы хотите присоединить. Они появятся в СУБД все отдельно.
 
 ![image](https://github.com/user-attachments/assets/bb0ae187-9881-4012-9784-4bcacaab8db2)
