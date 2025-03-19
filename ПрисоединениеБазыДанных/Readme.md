@@ -10,3 +10,5 @@
 
 > [!Warning]
 > Можно сразу дабавить несколько баз данных которые вы хотите присоединить
+
+![image](https://github.com/user-attachments/assets/bb0ae187-9881-4012-9784-4bcacaab8db2)
